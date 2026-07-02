@@ -1,0 +1,74 @@
+{
+  "history": [
+    {
+      "user_input": ":generate a quiz on Fastapi and quiz should be 3 in number",
+      "assistant": {
+        "topic": "FastAPI",
+        "questions": [
+          {
+            "question": "Which decorator is used in FastAPI to define a GET route?",
+            "option_a": "@app.get(\"/items\")",
+            "option_b": "@app.post(\"/items\")",
+            "option_c": "@app.put(\"/items\")",
+            "option_d": "@app.delete(\"/items\")",
+            "correct_answer": "A"
+          },
+          {
+            "question": "How do you declare a path parameter named `item_id` in FastAPI?",
+            "option_a": "def read_item(item_id: int):",
+            "option_b": "def read_item(item_id: str):",
+            "option_c": "def read_item(item_id: Path(int)):",
+            "option_d": "def read_item(item_id: Query(int)):",
+            "correct_answer": "A"
+          },
+          {
+            "question": "Which feature allows you to automatically validate request bodies in FastAPI?",
+            "option_a": "Pydantic models",
+            "option_b": "SQLAlchemy",
+            "option_c": "Jinja2 templates",
+            "option_d": "Celery tasks",
+            "correct_answer": "A"
+          }
+        ]
+      }
+    },
+    {
+      "user_input": "on which topic you create a quiz ",
+      "assistant": "I created the quiz on **FastAPI**."
+    },
+    {
+      "user_input": "generate a small notes on topic side effects of smoking for 10 grade student",
+      "assistant": {
+        "topic": "Side effects of smoking",
+        "Notes on Side effects of smoking": [
+          {
+            "Definition": "Smoking is the inhalation of tobacco smoke, which contains thousands of chemicals, many of which are harmful to the body.",
+            "Key_concepts": "1. Respiratory damage \u2013 affects lungs and airways.\n2. Cardiovascular harm \u2013 increases heart disease risk.\n3. Cancer risk \u2013 especially lung, throat, and mouth.\n4. Reduced immunity \u2013 makes infections easier.\n5. Skin and appearance \u2013 causes wrinkles and yellowing.\n6. Pregnancy effects \u2013 harms fetal development.",
+            "Important_points": "- Smoking damages the cilia in lungs, leading to chronic cough and infections.\n- Nicotine causes blood vessels to narrow, raising blood pressure.\n- Carcinogens in smoke cause DNA mutations that lead to cancer.\n- Smokers have weaker immune cells, so colds and flu last longer.\n- Smoking stains teeth and skin, and accelerates skin aging.\n- Pregnant smokers increase risk of miscarriage, low birth weight, and birth defects.",
+            "Short_summary": "Smoking harms nearly every organ: it clogs lungs, raises heart risk, fuels cancer, weakens immunity, and ages skin. Even small amounts increase these dangers, and it can harm unborn babies. Quitting early saves life and improves health."
+          }
+        ]
+      }
+    },
+    {
+      "user_input": "what was the last questio i asked",
+      "assistant": "Your last question before this one was:\n\n> **\u201cGenerate a small notes on topic side effects of smoking for 10\u2011grade students.\u201d**"
+    },
+    {
+      "user_input": "on which topic you generate a quiz",
+      "assistant": "The quiz I generated was on **FastAPI**."
+    },
+    {
+      "user_input": "how many quiz you generate on fastapi",
+      "assistant": "I generated **one** quiz on FastAPI."
+    },
+    {
+      "user_input": "what is the last question i askd",
+      "assistant": "Your last question was:\n\n> **\u201cOn which topic did you generate a quiz?\u201d**"
+    },
+    {
+      "user_input": "for which grade you have generate the short notes on smoking ?",
+      "assistant": "I created the short notes on the side effects of smoking specifically for **10\u2011grade students**."
+    }
+  ]
+}
