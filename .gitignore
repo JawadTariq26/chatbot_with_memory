@@ -1,6 +1,6 @@
 .env
 .venv/
 *.venv
-.multi_tools.py
-.tools.py
-.lancgchain_intro.py
+.*multi_tools.py
+.*tools.py
+.*lancgchain_intro.py
